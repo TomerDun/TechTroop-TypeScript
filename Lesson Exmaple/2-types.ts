@@ -24,6 +24,6 @@ jobsIWillAccept = true;
 
 let counter = 0; // number
 let clickable = true; // boolean
-let onClick = () => {clickable && console.log(counter)}; //function
+const onClick = () => {clickable && console.log(counter)}; //function
 
 
